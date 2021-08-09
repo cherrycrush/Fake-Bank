@@ -1,4 +1,4 @@
-const path = require('path')
+const path = require('path');
 
 module.exports = {
   entry: path.join(__dirname, 'index.js'),
@@ -21,4 +21,4 @@ module.exports = {
   devServer: {
     contentBase: path.join(__dirname, '../server/public')
   }
-}
+};
