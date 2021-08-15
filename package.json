@@ -8,7 +8,7 @@
   "license": "ISC",
   "scripts": {
     "client": "webpack serve --config ./client/webpack.config.js --hot",
-    "dev": "run-p dev:client dev:server",
+    "dev": "run-p watch:sass dev:client dev:server",
     "dev:client": "npm run webpack -- --watch",
     "dev:server": "nodemon server",
     "start": "node server",
@@ -17,7 +17,8 @@
     "test": "jest",
     "test:watch": "jest --watchAll",
     "webpack": "webpack --config ./client/webpack.config.js",
-    "lint": "eslint --ext .js,.jsx ."
+    "lint": "eslint --ext .js,.jsx .",
+    "watch:sass": "sass --watch server/index.scss:server/public/index.css"
   },
   "keywords": [
     "frontend"

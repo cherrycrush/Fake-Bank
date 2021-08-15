@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #74e7ff;
+  background-color: #43414e;
+  position: relative;
+  overflow: hidden;
+}
+
+.nav-item {
+  padding: 1rem;
+  float: inline-end;
+}
+
+.logo {
+  padding: 1rem;
+  float: inline-start;
+}
+
+li {
+  display: inline;
+}
+
+/*# sourceMappingURL=index.css.map */
